@@ -1,0 +1,58 @@
+.parallax-container {
+    position: relative;
+    height: 100vh; /* Altera a altura do container para ocupar toda a altura da tela */
+    overflow: hidden;
+  }
+  
+  .parallax img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* A imagem vai ocupar toda a largura do contêiner */
+    height: 100%; /* A imagem vai ocupar toda a altura do contêiner */
+    object-fit: contain; /* A imagem vai se ajustar ao tamanho do contêiner sem cortar ou distorcer */
+    object-position: center; /* A imagem será centralizada */
+    transform: translateY(0); /* Remove qualquer transformação indesejada */
+    will-change: transform; /* Melhora o desempenho quando a transformação for aplicada */
+    animation: none; /* Desativa qualquer animação */
+  }
+  
+  
+  
+  .contact-form {
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: -50px auto 0;
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  .contact-form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .contact-form button {
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .contact-form button:hover {
+    background: #0056b3;
+  }
+  
